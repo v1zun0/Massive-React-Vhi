@@ -101,11 +101,7 @@ function Sidebar() {
             </p>
           </div>
           <div className="teksproject" style={{ display: "flex", flexDirection: "column", marginLeft: "50px" }}>
-            <label
-              htmlFor="fileUpload2"
-              className="btn btn-primary"
-              style={{ borderRadius: "50%", padding: "5px", backgroundColor: "#023C50", width: "90px", height: "90px", display: "flex", alignItems: "center", justifyContent: "center" }}
-            >
+            <label className="btn btn-primary" style={{ borderRadius: "50%", padding: "5px", backgroundColor: "#023C50", width: "90px", height: "90px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img src={images("./addproject.png")} alt="uploadicon" className="button-icon" style={{ padding: "5px" }} />
             </label>
             <p style={{ fontWeight: "600", color: "#023c50", marginTop: "12px" }}>New Project</p>

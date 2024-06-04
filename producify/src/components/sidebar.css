@@ -155,3 +155,45 @@ a.sidebar-link:hover {
   background-color: #000000;
   align-items: center;
 }
+
+.btn {
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #023c50;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #035f78;
+  transform: scale(1.1);
+}
+
+/* Animasi perubahan warna saat dihover */
+.btn-primary:hover {
+  animation: changeColor 0.3s linear forwards;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #023c50;
+  }
+  100% {
+    background-color: #0496c7;
+  }
+}
+
+.button-icon {
+  padding: 5px;
+}
+
+.teksproject {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
