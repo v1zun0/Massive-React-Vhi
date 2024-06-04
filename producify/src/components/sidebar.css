@@ -197,3 +197,29 @@ a.sidebar-link:hover {
   flex-direction: column;
   margin-left: 50px;
 }
+
+/* styles.css */
+.teksfyp {
+  display: flex; /* Menggunakan flexbox agar konten sejajar */
+  align-items: center; /* Menengahkan vertikal */
+}
+
+.vertical-line {
+  width: 2px; /* Lebar garis */
+  height: 50px; /* Tinggi garis, sesuaikan dengan kebutuhan */
+  background-color: #000; /* Warna garis */
+  margin: 10px 20px; /* Jarak antara teks dan garis */
+}
+
+.teksheaderhalamancard {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 22px;
+  transition: color 0.3s, text-decoration 0.3s; /* Efek transisi untuk warna dan underline */
+}
+
+.hover-effect:hover {
+  color: rgba(0, 0, 0, 0.4); /* Warna hitam dengan opasitas 40% saat dihover */
+  text-decoration: underline; /* Garis bawah saat dihover */
+}

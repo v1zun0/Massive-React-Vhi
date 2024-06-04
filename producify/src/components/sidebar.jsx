@@ -108,6 +108,15 @@ function Sidebar() {
           </div>
         </div>
         <div className="line"></div>
+        <div className="teksfyp" style={{ display: "flex", justifyContent: "center", alignItems: "flex-end" }}>
+          <p style={{ fontWeight: "bold", textAlign: "center", marginTop: "30px", paddingRight: "40px", fontSize: "22px" }} className="teksheaderhalamancard hover-effect">
+            For You
+          </p>
+          <div className="vertical-line"></div>
+          <p style={{ fontWeight: "bold", textAlign: "center", marginTop: "30px", paddingLeft: "40px", fontSize: "22px" }} className="teksheaderhalamancard hover-effect">
+            Following
+          </p>
+        </div>
       </div>
     </div>
   );
